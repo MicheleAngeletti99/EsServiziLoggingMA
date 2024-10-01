@@ -1,0 +1,13 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+logging:
+  level:
+    root: info
+    com.example.esservizilogging.services: debug
+  file:
+    name: ./logs/myCustomLogs.log
+customVars:
+  base: 2
+  exp: 8
